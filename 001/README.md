@@ -1,3 +1,7 @@
+# 01/26/15
+
+___This homework is due by 8am, on 01/27/2015___
+
 ## HTML and CSS Introduction
 
 ### Description
