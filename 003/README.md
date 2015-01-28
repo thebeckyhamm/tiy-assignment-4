@@ -28,7 +28,7 @@ Use media queries to acheive the following effect on smaller screens:
 
 Use CSS transitions, psuedo selectors and positioning to recreate the layout in the screenshot below:
 
-![](_meta/tshirts.png)
+![](_meta/tshirts.gif)
 
 **Note** Don't worry about the flipping effect. Focus on the layout and the flyout menus for the buttons below the shirts.
 
