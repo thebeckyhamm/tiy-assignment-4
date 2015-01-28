@@ -6,9 +6,9 @@ ___This homework is due by 8am, on 01/29/2015___
 
 ![](_meta/octodex.png)
 
-2. Createa new repo on github for this.
+* Create a new repo on github for this.
 
-3. Create a project github pages to host it.
+* Create a project github pages to host it.
 
 # Deliverables
 
