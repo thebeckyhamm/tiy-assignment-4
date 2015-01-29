@@ -12,8 +12,6 @@ After completing this assignment, you should be able to:
 
 * Effectively utilize some common css layout strategies (float or inline-block)
 * Leverage and understand the use of `absolute` vs `relative` in context of positioning.
-*
-
 
 ## Details
 
