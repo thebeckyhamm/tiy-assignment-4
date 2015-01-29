@@ -11,7 +11,11 @@
 @med-blue: #0C66AD;
 @white: #fff;
 @med-gray: #A1B0BC;
+@dark-gray: #5E686F;
 
+.transition(@attribute) {
+    transition: @attribute .2s ease-in-out;
+}
 
 
 .clearfix:after {
@@ -23,6 +27,7 @@
 
 // General
 body {
+    color: @dark-gray;
     font-family: @body-font;
 }
 
@@ -34,6 +39,7 @@ h1, h2, h3, h4 {
 
 a {
     color: @med-gray;
+    .transition(color);
     &:hover {
         color: @med-blue;
     }
@@ -81,7 +87,7 @@ a {
                 font-size: 18px;
                 text-decoration: none;
                 text-transform: uppercase;
-                transition: color .2s ease-in-out;
+                .transition(color);
                 &:hover {
                     color: @white;
                 }
@@ -165,6 +171,54 @@ blockquote {
     text-transform: uppercase;
 }
 
+.content-footer {
+    margin-top: -4px;
+    .action {
+        background-color: @med-gray;
+        display: inline-block;
+        height: 30px;
+        margin-left: 3px;
+        &:extend(.clearfix all);
+        &:first-child {
+            margin-left: 3px;
+            .text-action {
+                padding-right: 7px;
+            }
+        }
+        &:nth-child(2) {
+            margin-left: 6px;
+            .text-action {
+                padding-right: 15px;
+            }
+        }
+        &:last-child {
+            margin-left: 6px;
+            background-color: @med-blue;
+            .icon-action {
+                background-color: @dark-blue;
+            }
+            .text-action {
+                padding-right: 12px;
+            }
+        }
+        .icon-action {
+            background-color: @dark-gray;
+            float: left;
+            padding: 4px 9px 1px 9px; 
+        }
+        .icon-action:first-child {
+            //margin-left: 3px;
+        }
+        .text-action {
+            color: @white;
+            float: left;
+            font-size: 14px;
+            padding-left: 9px;
+            padding-top: 4px;
+        }
+    }
+}
+
 
 .main-aside {
     float: right;
@@ -172,5 +226,6 @@ blockquote {
     padding-left: 85px;
     width: 37%;
 }
+
 
 
